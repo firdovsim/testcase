@@ -68,7 +68,7 @@ function processUserSubscription($row, $currentTimestamp, $conn): void
 $dbHost = 'your_host';
 $dbUser = 'your_username';
 $dbPass = 'your_password';
-$dbName = 'your_name';
+$dbName = 'your_database';
 
 $conn = establishDatabaseConnection($dbHost, $dbUser, $dbPass, $dbName);
 
